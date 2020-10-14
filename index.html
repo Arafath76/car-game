@@ -5,6 +5,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyAs7kwX6qZtGPFBWw0fES0LknKEeGavF0I",
+    authDomain: "multiplayer-5f789.firebaseapp.com",
+    databaseURL: "https://multiplayer-5f789.firebaseio.com",
+    projectId: "multiplayer-5f789",
+    storageBucket: "multiplayer-5f789.appspot.com",
+    messagingSenderId: "16303317003",
+    appId: "1:16303317003:web:f7305054bc3b12cc96270e"
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+</script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
@@ -13,3 +34,4 @@
       <script src="sketch.js"></script>
   </body>
 </html>
+
